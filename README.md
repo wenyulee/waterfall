@@ -1,4 +1,4 @@
-smartnet_redesign
+project_waterfall
 =================
 
-Prototype for smartnet UI redesign
+Prototype for social feed UI redesign

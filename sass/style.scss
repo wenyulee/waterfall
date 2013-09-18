@@ -1,0 +1,87 @@
+@import "normalize";
+@import "settings"; // *always required
+@import "foundation"; // *always required
+
+/* Mixins
+----------------------------------*/
+@mixin clearfix() {
+  &:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+}
+
+
+/*= Styles
+ ------------------------*/
+body{
+  font-family: Avenir, sans-serif;
+  font-size: 100%;
+  background: #f5f5f5;
+}
+
+#insert{
+  padding: 10px;
+  cursor:pointer;
+  display:inline-block;
+}
+
+#wrapper{
+  width: 90%;
+  max-width: 90%;
+}
+
+#sidebar{
+  ul{
+    list-style-type:none;
+    
+    li{
+      padding: .5em;
+      border-bottom: 1px solid #ececec;
+      
+      a{
+        color: #333;
+      }
+    }
+  }
+}
+
+#items-wrapper{
+  font-size: 0.75em;
+  line-height: 1em;
+  
+  &.flexbox{
+    display: flex;
+    flex-flow: row wrap;  
+  }
+  
+  .item{
+    box-shadow: 1px 1px 1px 1px #dbdbdb;
+    background: white;
+    width: 235px;
+    margin: 1em;
+    padding:1em;
+    display: inline-block; 
+    
+    img{
+      max-width: 100%;
+      margin-bottom: 1em;
+    }
+    
+    div{
+      font-weight: bold;
+      line-height: 1.5em;
+    }
+  }  
+}
+
+@media #{$large} { 
+  #main{
+    width: 85%;
+  }
+  
+  #sidebar{
+    width: 15%;
+  }
+}

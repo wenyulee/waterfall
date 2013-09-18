@@ -1,0 +1,33 @@
+html, body {
+  background-color: #FFF;
+  position: relative;
+  width: 100% !important;
+}
+
+body {
+  font: normal 13px "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+#cover {
+  background: rgba(0, 0, 0, 0.36);
+  display: none;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9995;
+}
+
+.voyagerIcon {
+  height: 36px;
+  width: 36px;
+  background: url("../images/spritesSSOOptimized.svg") no-repeat scroll transparent;
+  margin: 0;
+  display: inline-block;
+  text-indent: -9999em;
+  outline: none;
+  cursor: pointer;
+}

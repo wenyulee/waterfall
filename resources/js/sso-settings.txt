@@ -1,0 +1,20 @@
+# SYNTAX FOR GROUPS
+# GROUP NAME
+
+# SYNTAX FOR ITEMS/MEMBERS OF GROUPS - place these under the group they should belong to
+# <tab>[MEMBER NAME]<space>[URI|FUNCTION|FILENAME]<space>[BACKGROUND CSS CODE]
+
+WEB SERVICE
+	SmartNet # url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -67px #FFF
+	HopTo # url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -144px #FFF
+	# Spaces are ignored
+	
+	# Sample comment
+	# Sample4 http://extra.com/extra.html url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -288px #FFF
+APPLICATIONS
+	PBA # url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -216px #FFF
+	DoodTV # url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -288px #FFF
+	#Sample function(){alert("Hi there!");} url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -288px #FFF
+	#Sample2 fnKamote(); url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -288px #FFF
+	#Sample3 extra.com url("../img/spritesSSOOptimized.svg") no-repeat scroll 5px -288px #FFF
+	#Sample5 target.com url("../img/spritesSSOOptimized.svg")

@@ -5349,18 +5349,20 @@ body {
   flex-flow: row wrap;
 }
 #items-wrapper .item {
-  box-shadow: 1px 1px 1px 1px #dbdbdb;
-  background: white;
-  width: 235px;
-  margin: 1em;
+  background: #f3f3f3;
   padding: 1em;
   display: inline-block;
 }
 #items-wrapper .item img {
   max-width: 100%;
-  margin-bottom: 1em;
+  display: block;
+  margin: 0 auto 1em;
 }
-#items-wrapper .item div {
+#items-wrapper .item > div {
+  padding: 1em;
+  box-shadow: 1px 1px 1px #D8D8D8;
+}
+#items-wrapper .item .num {
   font-weight: bold;
   line-height: 1.5em;
 }

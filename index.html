@@ -2,104 +2,121 @@
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en" >
-<!--<![endif]-->
+  <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
 
-
     <title>Smartnet</title>
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="http://design-frontend.s3-website-ap-southeast-1.amazonaws.com/resources/css/ssomin.css" />
 
+    <script src="js/custom.modernizr.js"></script>
     <script src="js/jquery-1.10.2.min.js"></script>
-    
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
     <script src="http://design-frontend.s3-website-ap-southeast-1.amazonaws.com/resources/js/ssomin.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
-    
-    
+
     <script>
-      $(document).ready(function(e) {
-            $().SSO.init(function(e) { $().SSO.fnSetText("property_name","SmartNet"); });
-      });
+      $( document ).ready( function( e ) {
+        $( ).SSO.init( function( e ) {
+          $( ).SSO.fnSetText( "property_name", "SmartNet" );
+        } );
+      } );
     </script>
   </head>
   <body>
-    
+
     <div id="wrapper" class="row">
-      <div id="main" class="column small-9 nine">
-        <div id="items-wrapper">
-          <div class="item base">
-            <img src="images/1.jpg" />
-            <div>No. 1.</div>
-            <p>Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+      <div id="main" class="column small-9 ">
+        <div id="items-wrapper" class="row">
+          <div class="base item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/1.jpg" />
+              <div class="num">No. 1.</div>
+              <p>Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>  
+            </div>
           </div>
-          
-          <div class="item">
-            <img src="images/2.jpg" />
-            <div>No. 2.</div> 
-            <p>Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi.</p>
+
+          <div class="item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/2.jpg" />
+              <div class="num">No. 2.</div>
+              <p>Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi.</p>
+             </div>
           </div>
-          
-          <div class="item">
-            <img src="images/3.jpg" />
-            <div>No. 3.</div>
-            <p>Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+
+          <div class="item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/3.jpg" />
+              <div class="num">No. 3.</div>
+              <p>Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Cras cursus volutpat nisl eu dapibus. Ut mattis, nulla at bibendum congue, velit dolor lacinia lectus, quis sagittis est neque at nisi. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+            </div>
           </div>
-          
-          <div class="item">
-            <img src="images/4.jpg" />
-            <div>No. 4.</div> 
-            <p>Mauris dictum orci interdum ante mollis pellentesque. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+
+          <div class="item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/4.jpg" />
+              <div class="num">No. 4.</div>
+              <p>Mauris dictum orci interdum ante mollis pellentesque. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+            </div>
           </div>
-          
-          <div class="item">
-            <img src="images/5.jpg" />
-            <div>No. 5.</div>
-            <p>Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+
+          <div class="item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/5.jpg" />
+              <div class="num">No. 5.</div>
+              <p>Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+             </div>
           </div>
-          
-          <div class="item">
-            <img src="images/6.jpg" />
-            <div>No. 6.</div> 
-            <p>Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis.  Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+
+          <div class="item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/6.jpg" />
+              <div class="num">No. 6.</div>
+              <p>Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis.  Ut velit nulla, rutrum eu dapibus at, elementum in mi. Praesent dignissim lacus eget sapien auctor, sed cursus est iaculis. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi. Duis nec tellus ac orci laoreet accumsan sit amet at massa. Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+            </div>
           </div>
-          
-          <div class="item">
-            <img src="images/7.jpg" />
-            <div>No. 7.</div>
-            <p>Duis nec tellus ac orci laoreet accumsan sit amet at massa.</p>
+
+          <div class="item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/7.jpg" />
+              <div class="num">No. 7.</div>
+              <p>Duis nec tellus ac orci laoreet accumsan sit amet at massa.</p>
+            </div>
           </div>
-          
-          <div class="item">
-            <img src="images/8.jpg" />
-            <div>No. 8.</div> 
-            <p>Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+
+          <div class="item column small-12 medium-3 large-3">
+            <div>
+              <img src="images/8.jpg" />
+              <div class="num">No. 8.</div>
+              <p>Ut velit nulla, rutrum eu dapibus at, elementum in mi.</p>
+            </div>
           </div>
-          
-        </div>        
+
+        </div>
       </div>
-      
-      <div id="sidebar" class="column small-3 three">
+
+      <div id="sidebar" class="column small-3">
         <a id="insert">Insert</a>
         <ul>
-          <li><a href="#smartnet">SmartNet</a></li>
-          <li><a href="#facebook">Facebook</a></li>
-          <li><a href="#twitter">Twitter</a></li>
+          <li>
+            <a href="#smartnet">SmartNet</a>
+          </li>
+          <li>
+            <a href="#facebook">Facebook</a>
+          </li>
+          <li>
+            <a href="#twitter">Twitter</a>
+          </li>
         </ul>
       </div>
-      
+
     </div>
-    
-    
+
     <script src="js/masonry.pkgd.js"></script>
     <script src="js/main.js"></script>
   </body>
-</html>  
+</html>

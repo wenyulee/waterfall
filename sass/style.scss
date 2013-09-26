@@ -1,90 +1,58 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
 @import "normalize";
-@import "settings"; // *always required
-@import "foundation"; // *always required
 
-/* Mixins
-----------------------------------*/
-@mixin clearfix() {
-  &:after {
-    content:"";
-    display:table;
-    clear:both;
-  }
-}
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+@import "components";
+@import "waterfall";
 
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
 
-/*= Styles
- ------------------------*/
-body{
-  font-family: Avenir, sans-serif;
-  font-size: 100%;
-  background: #f5f5f5;
-}
+// @import "foundation/components/global"; // *always required
+// @import "foundation/components/grid";
 
-#insert{
-  padding: 10px;
-  cursor:pointer;
-  display:inline-block;
-}
+//
+// Use this grid if you want to start using the new Foundation 5 grid early.
+// It will change breakpoints to min-width: 640px and 1024px.
+//
+// @import "foundation/components/grid-5";
+//
 
-#wrapper{
-  width: 90%;
-  max-width: 90%;
-}
+// @import "foundation/components/visibility";
+// @import "foundation/components/block-grid";
+// @import "foundation/components/type";
+// @import "foundation/components/buttons";
+// @import "foundation/components/forms"; // *requires components/buttons
+// @import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+// @import "foundation/components/button-groups"; // *requires components/buttons
+// @import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+// @import "foundation/components/section";
+// @import "foundation/components/top-bar";  // *requires components/grid
+// @import "foundation/components/orbit";
+// @import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+// @import "foundation/components/clearing";
+// @import "foundation/components/alert-boxes";
+// @import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+// @import "foundation/components/labels";
+// @import "foundation/components/inline-lists";
+// @import "foundation/components/pagination";
+// @import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+// @import "foundation/components/side-nav";
+// @import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+// @import "foundation/components/tables";
+// @import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+// @import "foundation/components/dropdown";
 
-#sidebar{
-  ul{
-    list-style-type:none;
-    
-    li{
-      padding: .5em;
-      border-bottom: 1px solid #ececec;
-      
-      a{
-        color: #333;
-      }
-    }
-  }
-}
-
-#items-wrapper{
-  font-size: 0.75em;
-  line-height: 1em;
-  
-  &.flexbox{
-    display: flex;
-    flex-flow: row wrap;  
-  }
-  
-  .item{
-    background: #f3f3f3;
-    padding:1em;
-    display: inline-block;
-    
-    img{
-      max-width: 100%;
-      display: block;
-      margin: 0 auto 1em;
-    }
-    
-    & > div{
-      padding: 1em;
-      box-shadow: 1px 1px 1px #D8D8D8;
-    }
-    
-    .num{
-      font-weight: bold;
-      line-height: 1.5em;
-    }    
-  }  
-}
-
-@media #{$large} { 
-  #main{
-    width: 85%;
-  }
-  
-  #sidebar{
-    width: 15%;
-  }
-}

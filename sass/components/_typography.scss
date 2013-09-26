@@ -1,0 +1,34 @@
+/* TYPOGRAPHY - _typography.scss */
+/* Customized Font ================================================================================ */
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/museo/Museo300.eot');
+    src: url('../fonts/museo/Museo300.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo/Museo300.woff') format('woff'),
+         url('../fonts/museo/Museo300.ttf') format('truetype'),
+         url('../fonts/museo/Museo300.svg#Museo300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/museo/Museo500.eot');
+    src: url('../fonts/museo/Museo500.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo/Museo500.woff') format('woff'),
+         url('../fonts/museo/Museo500.ttf') format('truetype'),
+         url('../fonts/museo/Museo500.svg#Museo500') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/museo/Museo700.eot');
+    src: url('../fonts/museo/Museo700.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museo/Museo700.woff') format('woff'),
+         url('../fonts/museo/Museo700.ttf') format('truetype'),
+         url('../fonts/museo/Museo700.svg#Museo700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
